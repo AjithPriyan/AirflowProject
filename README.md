@@ -1,7 +1,7 @@
 # AirflowProject
 In this project, I will create an ETL process for extracting data and wrap the whole thing as a data pipeline using Airflow and Docker.
 
-The ETL process will extract data from API, the extracted data is stored in XCOM(Connection between two tasks), then data is temporarily stored in CSV file and finally transform it and load it to a PostgreSQL database. It have an automated process that constantly feeds the PostgreSQL database with data. Every 2 minutes, the ETL process will load an updated batch of API data.
+The ETL process will extract data from API, the extracted data is stored in XCOM(Connection between two tasks), then data is temporarily stored in CSV file and finally transform it and load it to a PostgreSQL database. It have an automated process that constantly feeds the PostgreSQL database with data. Every 2 hours, the ETL process will load an updated batch of API data.
 
 # Project Details
 Airflow Project, which consists of
